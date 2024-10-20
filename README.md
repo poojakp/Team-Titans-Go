@@ -49,20 +49,25 @@ Access to mental health care is a significant global issue, particularly in remo
 
 ### Other IBM technology used
 
-**Additional IBM AI services (Remove any that you did not use)**
+**Additional IBM AI services**
 - [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - is employed in the app to analyse user inputs, such as text responses to mental health assessments or conversations with the virtual assistant. By extracting key information like sentiment, emotions, and intent from users' responses, NLU allows the app to better understand the user's current mental state and provide personalized recommendations. For instance, if the system detects signs of stress or anxiety in a user's message, it can suggest calming exercises or connect them with relevant resources.
 
 - [Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - enables users in remote areas to interact with the app using voice commands, which is especially helpful for those with limited literacy or difficulty typing. The app transcribes users' spoken words into text, allowing for seamless communication. This feature improves accessibility and ease of use, particularly for older adults or users unfamiliar with typing in their regional language.
 
 - [Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - is used to convert written content, such as mental health resources, educational articles, and conversational responses from the virtual assistant, into spoken language. This feature is particularly useful for users who prefer auditory content or have reading difficulties. It makes the app more accessible by providing a voice interface for users who may want to listen to information or instructions rather than read them, enhancing user engagement in remote, low-literacy communities.
 
-- [Language Translator](https://cloud.ibm.com/catalog/services/language-translator) - 
+### Other key technology used in our project
+- Offline Capabilities and Low Bandwidth Optimization with Caching using **Dexie.js (IndexedDB)**
+- Multilingual Support for Accessibility using **i18n (internationalization) libraries**
+- OTP-based Signup/Sign-in for Simple Authentication using **Twilio**
+- Sending user sentiments data via sms/email using **Sendgrid**
 
 ### Solution architecture
 
 Diagram and step-by-step description of the flow of our solution:
 
-![image](https://github.com/user-attachments/assets/78bb3715-49b1-49f1-bd52-ceb68fd20896)
+
+<img width="575" alt="YouMatter" src="https://github.com/user-attachments/assets/01c296ca-0a21-48b3-bbfa-b08b9b22073b">
 
 
 1. The user lands on the landing page, where they can find information regarding AI chat support, contact a counsellor, access self-help resources, and emergency crisis support. There is also an option in the top-right corner to connect with the chatbot.
@@ -93,7 +98,6 @@ Diagram and step-by-step description of the flow of our solution:
 
 ### Solution demo video
 
-[![Watch the video](https://raw.githubusercontent.com/Liquid-Prep/Liquid-Prep/main/images/readme/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
 ### Project development roadmap
 
