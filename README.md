@@ -27,8 +27,16 @@ Our solution provides offline, low bandwidth Optimization, multilingual mental h
 
 ### Our idea
 
-Access to mental health care is a significant global issue, particularly in remote and underserved communities. In these regions, several challenges hinder effective mental health care delivery. First, geographic isolation often means that mental health professionals are inaccessible, and health facilities are few and far between. This lack of proximity makes it difficult for individuals to receive timely support. Second, poor or intermittent internet connectivity further exacerbates the problem, making telehealth solutions, which typically require stable bandwidth, less effective. Additionally, language barriers present significant obstacles in these areas. Most mental health care resources are not available in the regional languages spoken by these populations, limiting access to culturally and linguistically appropriate care. Lastly, many of these individuals are not familiar with traditional authentication systems like email-based logins, creating barriers to accessing mental health applications.
+Access to mental health care is a significant global issue, particularly in remote and rural communities.In these regions, several challenges hinder effective mental health care delivery such as-
+1. Geographic isolation often means that mental health professionals are inaccessible, and health facilities are few and far between. This lack of proximity makes it difficult for individuals to receive timely support. 
 
+2. Poor or intermittent internet connectivity further increases the problem as most of the modern app relies on high internet bandwidth.
+   
+3. Additionally, language barriers present significant obstacles in these areas. Most mental health care resources are not available in the regional languages spoken by these populations, limiting access to culturally and linguistically appropriate care.
+   
+4. Many of these individuals are not familiar with traditional authentication systems like email-based logins, creating barriers to accessing mental health applications.
+
+Our application is addressing all the challenges by provding below functionalities- 
 **Offline Capabilities Using Dexie.js (IndexedDB)**: The app will utilize **Dexie.js**, a wrapper around **IndexedDB**, to store user data and resources locally on the device. This enables the app to work offline, allowing users to access critical mental health resources/services of app without needing an active internet connection. For example, a user in a rural community could complete self-assessments and log their mental health progress even when offline. When the app detects an internet connection, it syncs the data with the backend for further analysis and follow-up care.
 
 **Low Bandwidth Optimization with Caching:** The app will be optimized for low bandwidth environments. **Dexie.js** will be used to cache resources locally, so once downloaded content can be reused without redownloading. Optimizations ensure a smooth and responsive user experience, even in areas with limited connectivity.
@@ -50,9 +58,9 @@ Access to mental health care is a significant global issue, particularly in remo
 ### Other IBM technology used
 
 **Additional IBM AI services**
-- [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - is employed in the app to analyse user inputs, such as text responses to mental health assessments or conversations with the virtual assistant. By extracting key information like sentiment, emotions, and intent from users' responses, NLU allows the app to better understand the user's current mental state and provide personalized recommendations. For instance, if the system detects signs of stress or anxiety in a user's message, it can suggest calming exercises or connect them with relevant resources.
+- [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - is intergated in the app to analyse user inputs, such as text responses to mental health assessments. By extracting key information like sentiment, emotions, and intent from users' responses, NLU allows the app to better understand the user's current mental state and provide personalized recommendations. For instance, if the system detects signs of stress or anxiety in a user's assessment, it can suggest calming exercises or connect them with relevant resources (NGO or other local communities).
 
-- [Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - enables users in remote areas to interact with the app using voice commands, which is especially helpful for those with limited literacy or difficulty typing. The app transcribes users' spoken words into text, allowing for seamless communication. This feature improves accessibility and ease of use, particularly for older adults or users unfamiliar with typing in their regional language.
+- [Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - enables users in remote areas to interact with the app using voice commands, which is especially helpful for those with limited literacy or difficulty in typing. The app transcribes users' spoken words into text, allowing for seamless communication. This feature improves accessibility and ease of use, particularly for older adults or users unfamiliar with typing in their regional language.
 
 - [Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - is used to convert written content, such as mental health resources, educational articles, and conversational responses from the virtual assistant, into spoken language. This feature is particularly useful for users who prefer auditory content or have reading difficulties. It makes the app more accessible by providing a voice interface for users who may want to listen to information or instructions rather than read them, enhancing user engagement in remote, low-literacy communities.
 
@@ -78,17 +86,17 @@ Diagram and step-by-step description of the flow of our solution:
 
 5. The user can now explore various components on the dashboard, such as:
 
-          - User Profile: Allows users in remote areas to update and manage their personal information for personalized support.
+          - **User Profile**: Allows users in remote areas to update and manage their personal information for personalized support.
         
-          - Self-Assessment: Provides tools to help users assess their mental health and identify areas of concern.
+          - **Self-Assessment**: Provides tools to help users assess their mental health and identify areas of concern.
         
-          - Resources: Offers access to mental health articles, guides, and self-help materials, even in low-connectivity regions.
+          - **Resources**: Offers access to mental health articles, guides, and self-help materials, even in low-connectivity regions.
         
-          - Workshops: Facilitates online mental health workshops tailored to users in remote locations.
+          - **Workshops**: Facilitates online mental health workshops tailored to users in remote locations.
         
-          - Exercises: Delivers mindfulness and mental health exercises that can be done offline to improve well-being.
+          - **Exercises**: Delivers mindfulness and mental health exercises that can be done offline to improve well-being.
         
-          - Counselling: Connects users with virtual counsellors for guidance and mental health support.
+          - **Counselling**: Connects users with virtual counsellors for guidance and mental health support.
         
           - Emergency: Provides immediate access to emergency mental health services or contacts in case of a crisis.
 
