@@ -19,7 +19,7 @@
 
 ### The issue we are hoping to solve
 
-In many remote and underserved communities, access to mental health resources is significantly limited due to geographic isolation, lack of internet infrastructure, and cultural or language barriers. Mental health challenges in these areas are often neglected, leading to worsening conditions and a lack of professional support. Many existing mental health applications are data-heavy, requiring continuous internet access, making them inaccessible in low-bandwidth regions. Furthermore, language and cultural differences in remote areas create additional hurdles in delivering effective mental health support.
+In many remote and rural areas, access to mental health resources is significantly limited due to geographic isolation, lack of internet infrastructure, and cultural or language barriers. Mental health challenges in these areas are often neglected, leading to worsening conditions and a lack of professional support. Many existing mental health applications are data-heavy, requiring continuous internet access, making them inaccessible in low-bandwidth regions. Furthermore, language and cultural differences in remote areas create additional hurdles in delivering effective mental health support.
 
 ### How our technology solution can help
 
@@ -78,19 +78,19 @@ Diagram and step-by-step description of the flow of our solution:
 
 5. The user can now explore various components on the dashboard, such as:
 
-  - User Profile: Allows users in remote areas to update and manage their personal information for personalized support.
-
-  - Self-Assessment: Provides tools to help users assess their mental health and identify areas of concern.
-
-  - Resources: Offers access to mental health articles, guides, and self-help materials, even in low-connectivity regions.
-
-  - Workshops: Facilitates online mental health workshops tailored to users in remote locations.
-
-  - Exercises: Delivers mindfulness and mental health exercises that can be done offline to improve well-being.
-
-  - Counselling: Connects users with virtual counsellors for guidance and mental health support.
-
-  - Emergency: Provides immediate access to emergency mental health services or contacts in case of a crisis.
+          - User Profile: Allows users in remote areas to update and manage their personal information for personalized support.
+        
+          - Self-Assessment: Provides tools to help users assess their mental health and identify areas of concern.
+        
+          - Resources: Offers access to mental health articles, guides, and self-help materials, even in low-connectivity regions.
+        
+          - Workshops: Facilitates online mental health workshops tailored to users in remote locations.
+        
+          - Exercises: Delivers mindfulness and mental health exercises that can be done offline to improve well-being.
+        
+          - Counselling: Connects users with virtual counsellors for guidance and mental health support.
+        
+          - Emergency: Provides immediate access to emergency mental health services or contacts in case of a crisis.
 
 ## Presentation materials
 
