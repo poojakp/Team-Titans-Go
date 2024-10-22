@@ -24,9 +24,9 @@ app.use(bodyParser.json());
 const nlu = new NaturalLanguageUnderstandingV1({
   version: '2021-08-01', // Use the latest API version
   authenticator: new IamAuthenticator({
-    apikey: 'iZyf23wzJvKuZ2BUwRaHJ7WVzOe2BKMEESRRaTRxLor2', // Replace with your API key
+    apikey: 'wPEBMfdh_vWsV9zkkGgDMlr97F6Lyl74VAFSwrkwCArx', // Replace with your API key
   }),
-  serviceUrl: 'https://api.jp-tok.natural-language-understanding.watson.cloud.ibm.com/instances/39aae3a4-a51f-4cff-90b4-b239fcf9acdf/v1/analyze?version=2019-07-12', // Replace with your Watson service URL
+  serviceUrl: 'https://api.jp-tok.natural-language-understanding.watson.cloud.ibm.com/instances/b7eeb532-9710-4114-93d8-17c232e8b62b', // Replace with your Watson service URL
 });
 
 // Watson STT setup

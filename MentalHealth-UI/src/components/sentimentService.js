@@ -1,14 +1,13 @@
 import axios from 'axios';
 
-const apiKey = '28RiRAF4gsjQK30iU8vARhf8zCpli4CmUiNH-zCC-YzH'; // Use your API Key
-const url = 'https://api.au-syd.natural-language-understanding.watson.cloud.ibm.com/instances/b512544b-4dc7-42dd-b0aa-8df24bfda2c0'; // Watson NLU URL
-
+const apiKey = process.env.REACT_APP_NLU_APIKEY; // Use API Key from environment variables
+const url = process.env.REACT_APP_NLU_URL;
 export const analyzeSentiment = async (text) => {
   const headers = {
     'Content-Type': 'application/json',
     'Authorization': `Basic ${btoa(`apikey:${apiKey}`)}` // Encoding API Key in Basic Auth format
   };
-
+s
   const data = {
     text: text,
     features: {
