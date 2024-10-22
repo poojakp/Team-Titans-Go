@@ -120,7 +120,7 @@ See below for our proposed schedule on next steps after Call for Code 2024 submi
 
 ### How to run the project
 
-**Prerequisites – **
+**Prerequisites**
   1.	Visual studio code 
   2.	Install mongo database and mongoose compass application(optional) for database service
    
