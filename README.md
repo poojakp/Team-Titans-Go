@@ -67,7 +67,7 @@ Access to mental health care is a significant global issue, particularly in remo
 Diagram and step-by-step description of the flow of our solution:
 
 
-<img width="575" alt="YouMatter" src="https://github.com/user-attachments/assets/01c296ca-0a21-48b3-bbfa-b08b9b22073b">
+<img width="575" alt="YouMatter_AD" src="https://github.com/user-attachments/assets/5dad3cf3-78aa-469c-bfe5-39d246de5281">
 
 
 1. The user lands on the landing page, where they can find information regarding AI chat support, contact a counsellor, access self-help resources, and emergency crisis support. There is also an option in the top-right corner to connect with the chatbot.
