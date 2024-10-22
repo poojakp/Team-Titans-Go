@@ -1,0 +1,58 @@
+/* LandingPage.css */
+
+.app {
+  background-color: #eef6ff; /* Light blue background */
+}
+
+.navbar {
+  background-color: #003399; /* Dark blue for the navbar */
+}
+
+.bg-lightblue {
+  background-color: #f0f8ff; /* Soft light blue */
+}
+
+.bg-white {
+  background-color: #ffffff; /* White for cards */
+}
+
+.text-darkblue {
+  color: #003399; /* Dark blue text */
+}
+
+.text-gray-800 {
+  color: #333; /* Dark gray for contrast */
+}
+
+.text-gray-700 {
+  color: #555; /* Softer gray for descriptions */
+}
+
+.hover\:text-gray-300:hover {
+  color: #d1d1d1; /* Light gray on hover */
+}
+
+.lang-select {
+  border: 1px solid #cce4ff; /* Light border for select */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.nav-link {
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffd700; /* Gold on hover */
+}
+
+.shadow-md {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.hover\:shadow-xl:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.rounded-lg {
+  border-radius: 12px; /* Soft rounded corners */
+}
