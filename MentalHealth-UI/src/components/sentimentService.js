@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const apiKey = 'iZyf23wzJvKuZ2BUwRaHJ7WVzOe2BKMEESRRaTRxLor2'; // Use your API Key
-const url = 'https://api.jp-tok.natural-language-understanding.watson.cloud.ibm.com/instances/39aae3a4-a51f-4cff-90b4-b239fcf9acdf/v1/analyze?version=2019-07-12'; // Watson NLU URL
+const apiKey = '28RiRAF4gsjQK30iU8vARhf8zCpli4CmUiNH-zCC-YzH'; // Use your API Key
+const url = 'https://api.au-syd.natural-language-understanding.watson.cloud.ibm.com/instances/b512544b-4dc7-42dd-b0aa-8df24bfda2c0'; // Watson NLU URL
 
 export const analyzeSentiment = async (text) => {
   const headers = {

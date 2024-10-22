@@ -28,9 +28,6 @@ function App() {
     <LanguageProvider>
       <div className="flex flex-col w-full h-screen bg-gradient-to-r from-light-blue-300 to-light-blue-50">
         <Router>
-          {/* Language Selector Dropdown */}
-          
-
           <Routes>
             <Route path="/" element={<LandingPage />} />
             <Route path="/signin" element={<SignInPage />} />
@@ -106,38 +103,30 @@ function App() {
                 </AuthGuard>
               }
             />
-              <Route
+            <Route
               path="/home"
               element={
                 <AuthGuard>
                   <Home />
                 </AuthGuard>
               }
-              
             />
-            {/* <Route
-              path="/moodtracker"
-              element={
-                <AuthGuard>
-                  <MoodTracker />
-                </AuthGuard>
-              }
-              
-            /> */}
           </Routes>
 
-          {/* STT and TTS buttons in the top right corner */}
+          {/* STT and TTS buttons fixed at the bottom center on all pages */}
           <div
             style={{
               position: "fixed",
-              top: 20,
-              right: 20,
+              bottom: 20,
+              left: "50%",
+              transform: "translateX(-50%)",
               display: "flex",
               gap: "10px",
+              zIndex: 9999, // Ensures the buttons are always on top
             }}
           >
-            {/* <STT />
-            <TTS /> */}
+            <STT />
+            <TTS />
           </div>
         </Router>
       </div>
