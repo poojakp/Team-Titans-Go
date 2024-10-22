@@ -66,7 +66,7 @@ Access to mental health care is a significant global issue, particularly in remo
 
 Diagram and step-by-step description of the flow of our solution:
 
-![image](https://github.com/user-attachments/assets/0ff3410f-27ca-43d7-a9f2-1a723f4b1df0")
+<img width="607" alt="image" src="https://github.com/user-attachments/assets/13b8b102-89d4-4881-bb27-7898e6e780b8">
 
 1. The user lands on the overview of the app, where they can find information regarding AI chat support, contact a counsellor, access self-help resources, and emergency crisis support. There is also an option in the down-right corner to connect with the chatbot.
 
