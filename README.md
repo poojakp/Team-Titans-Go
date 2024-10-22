@@ -36,7 +36,7 @@ Access to mental health care is a significant global issue, particularly in remo
    
 4. Many of these individuals are not familiar with traditional authentication systems like email-based logins, creating barriers to accessing mental health applications.
 
-Our application is addressing all the challenges by provding below functionalities- 
+Our application is addressing all the challenges by providing below functionalities- 
 
 
 **Offline Capabilities Using Dexie.js (IndexedDB)**: The app will utilize **Dexie.js**, a wrapper around **IndexedDB**, to store user data and resources locally on the device. This enables the app to work offline, allowing users to access critical mental health resources/services of app without needing an active internet connection. For example, a user in a rural community could complete self-assessments and log their mental health progress even when offline. When the app detects an internet connection, it syncs the data with the backend for further analysis and follow-up care.
