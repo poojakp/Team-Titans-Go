@@ -45,7 +45,7 @@ Access to mental health care is a significant global issue, particularly in remo
 
 **Featured watsonx products**
 
-- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - is utilized to create an intelligent, conversational interface that enables users to interact with the app through natural language, even in their regional language. It helps users navigate the app, find mental health resources, and get answers to common mental health-related questions. This virtual assistant can also guide users through mental health assessments, offer instant support, and provide reminders for ongoing activities, making mental health care more accessible and user-friendly for individuals in remote areas.
+- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - is utilized to create an intelligent, conversational interface that enables users to interact with the app with their mental health queries. It helps users navigate the app, find mental health resources, and get answers to common mental health-related questions. This virtual assistant can also guide users through mental health assessments, offer instant support, and provide reminders for ongoing activities, making mental health care more accessible and user-friendly for individuals in remote areas.
 
 ### Other IBM technology used
 
@@ -66,9 +66,7 @@ Access to mental health care is a significant global issue, particularly in remo
 
 Diagram and step-by-step description of the flow of our solution:
 
-
-<img width="575" alt="YouMatter_AD" src="https://github.com/user-attachments/assets/5dad3cf3-78aa-469c-bfe5-39d246de5281">
-
+<img width="608" alt="image" src="https://github.com/user-attachments/assets/0ff3410f-27ca-43d7-a9f2-1a723f4b1df0">
 
 1. The user lands on the landing page, where they can find information regarding AI chat support, contact a counsellor, access self-help resources, and emergency crisis support. There is also an option in the top-right corner to connect with the chatbot.
 
@@ -128,10 +126,10 @@ Prerequisites –
    
 Steps to run project solution
 1. Clone the repository in local using git clone command
-2. Open visual studio navigate to -  .\MentalHealth-Backend project 
-3. npm install 
-4. npm start 
-5. setup .env file for Twilio token setup
-6. Run front-end solution -  .\MentalHealth-UI project in another terminal of visual studio code 
+2. Open visual studio navigate to -  .\MentalHealth-Backend project
+3. setup .env file for Twilio token setup
+4. npm install 
+5. npm start 
+6. Run front-end solution -  .\MentalHealth-UI project in another terminal of vS code 
 7. npm install 
 8. npm start
