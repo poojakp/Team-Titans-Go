@@ -135,7 +135,7 @@ See below for our proposed schedule on next steps after Call for Code 2024 submi
      
      **cd .\MentalHealth-Backend**
      
-  5. Set up the .env file with your Twilio token.
+  5. Set up the .env file to have all your API integration keys.
      
   6. Run the following command to install dependencies:
       
