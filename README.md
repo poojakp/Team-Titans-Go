@@ -126,19 +126,34 @@ See below for our proposed schedule on next steps after Call for Code 2024 submi
    
 **Steps to run project solution**
   1. Clone the repository to your local machine using the following command:
-    **git clone [command](https://github.com/poojakp/Team-Titans-Go)**
-  2. Open the cloned repository in Visual Studio (VS Code).
-  3. In the terminal, navigate to the backend project directory:
+
+     **git clone https://github.com/poojakp/Team-Titans-Go**
+     
+  3. Open the cloned repository in Visual Studio (VS Code).
+     
+  4. In the terminal, navigate to the backend project directory:
+     
      **cd .\MentalHealth-Backend**
-  4. Set up the .env file with your Twilio token.
-  5. Run the following command to install dependencies:
+     
+  5. Set up the .env file with your Twilio token.
+     
+  6. Run the following command to install dependencies:
+      
      **npm install**
-  6. Start the backend server:
+     
+  7. Start the backend server:
+      
      **npm start**
-  7. Open a new terminal in VS Code for the front-end. Then, navigate to the front-end project directory:
+     
+  8. Open a new terminal in VS Code for the front-end. Then, navigate to the front-end project directory:
+      
       **cd .\MentalHealth-UI**
-  8. Install front-end dependencies:
+      
+  9. Install front-end dependencies:
+      
      **npm install**
+     
   10. Start the front-end:
+      
       **npm start**
       
