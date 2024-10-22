@@ -68,7 +68,7 @@ Diagram and step-by-step description of the flow of our solution:
 
 <img width="607" alt="image" src="https://github.com/user-attachments/assets/13b8b102-89d4-4881-bb27-7898e6e780b8">
 
-1. The user lands on the overview of the app, where they can find information regarding AI chat support, contact a counsellor, access self-help resources, and emergency crisis support. There is also an option in the down-right corner to connect with the chatbot.
+1. The user lands on the app's overview, where they can find information about AI chat support, contact a counselor, access self-help resources, and emergency crisis support. There is also an option in the bottom-right corner to connect with the chatbot.
 
 2. The user can navigate to the registration page to create a profile.
 
@@ -78,19 +78,19 @@ Diagram and step-by-step description of the flow of our solution:
 
 5. The user can now explore various components on the dashboard, such as:
 
-- User Profile: Allows users in remote areas to update and manage their personal information for personalized support.
+  - User Profile: Allows users in remote areas to update and manage their personal information for personalized support.
 
-- Self-Assessment: Provides tools to help users assess their mental health and identify areas of concern.
+  - Self-Assessment: Provides tools to help users assess their mental health and identify areas of concern.
 
-- Resources: Offers access to mental health articles, guides, and self-help materials, even in low-connectivity regions.
+  - Resources: Offers access to mental health articles, guides, and self-help materials, even in low-connectivity regions.
 
-- Workshops: Facilitates online mental health workshops tailored to users in remote locations.
+  - Workshops: Facilitates online mental health workshops tailored to users in remote locations.
 
-- Exercises: Delivers mindfulness and mental health exercises that can be done offline to improve well-being.
+  - Exercises: Delivers mindfulness and mental health exercises that can be done offline to improve well-being.
 
-- Counselling: Connects users with virtual counsellors for guidance and mental health support.
+  - Counselling: Connects users with virtual counsellors for guidance and mental health support.
 
-- Emergency: Provides immediate access to emergency mental health services or contacts in case of a crisis.
+  - Emergency: Provides immediate access to emergency mental health services or contacts in case of a crisis.
 
 ## Presentation materials
 
@@ -101,13 +101,13 @@ Diagram and step-by-step description of the flow of our solution:
 
 The project currently does the following things.
 
-•	Multilingual Support
+  •	Multilingual Support
 
-•	Offline Capabilities
+  •	Offline Capabilities
 
-•	Low-Bandwidth Optimized
+  •	Low-Bandwidth Optimized
 
-•	Secure OTP-Based Signup/Sign-in
+  •	Secure OTP-Based Signup/Sign-in
 
 In the future we plan to...
 
@@ -120,16 +120,25 @@ See below for our proposed schedule on next steps after Call for Code 2024 submi
 
 ### How to run the project
 
-Prerequisites – 
-1.	Visual studio code 
-2.	Install mongo database and mongoose compass application(optional) for database service
+**Prerequisites – **
+  1.	Visual studio code 
+  2.	Install mongo database and mongoose compass application(optional) for database service
    
-Steps to run project solution
-1. Clone the repository in local using git clone command
-2. Open visual studio navigate to -  .\MentalHealth-Backend project
-3. setup .env file for Twilio token setup
-4. npm install 
-5. npm start 
-6. Run front-end solution -  .\MentalHealth-UI project in another terminal of vS code 
-7. npm install 
-8. npm start
+**Steps to run project solution**
+  1. Clone the repository to your local machine using the following command:
+    ** git clone [command](https://github.com/poojakp/Team-Titans-Go)**
+  2. Open the cloned repository in Visual Studio (VS Code).
+  3. In the terminal, navigate to the backend project directory:
+     **cd .\MentalHealth-Backend**
+  4. Set up the .env file with your Twilio token.
+  5. Run the following command to install dependencies:
+     **npm install**
+  6. Start the backend server:
+     **npm start**
+  7. Open a new terminal in VS Code for the front-end. Then, navigate to the front-end project directory:
+      cd .\MentalHealth-UI
+  8. Install front-end dependencies:
+     **npm install**
+  10. Start the front-end:
+      **npm start**
+      
