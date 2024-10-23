@@ -165,6 +165,4 @@ See below for our proposed schedule on next steps after Call for Code 2024 submi
   10. Start the front-end:
       
       **npm start**
-
-      TWILIO_SENDGRID_APIKey="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"
       
