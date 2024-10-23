@@ -76,7 +76,7 @@ Our application is addressing all the challenges by providing below functionalit
 
 Diagram and step-by-step description of the flow of our solution:
 
-![Alt text](https://github.com/poojakp/Team-Titans-Go/blob/main/images/YouMatter_AD.png)
+![Alt text](https://github.com/poojakp/Team-Titans-Go/blob/main/images/Youmatter_AD.png)
 
 1. The user lands on the app's overview, where they can find information about AI chat support, contact a counselor, access self-help resources, and emergency crisis support. There is also an option in the bottom-right corner to connect with the chatbot.
 
