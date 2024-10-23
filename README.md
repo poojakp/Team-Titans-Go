@@ -88,19 +88,19 @@ Diagram and step-by-step description of the flow of our solution:
 
 5. The user can now explore various components on the dashboard, such as:
 
-          - **User Profile**: Allows users in remote areas to update and manage their personal information for personalized support.
+   - **User Profile**: Allows users in remote areas to update and manage their personal information for personalized support.
         
-          - **Self-Assessment**: Provides tools to help users assess their mental health and identify areas of concern.
+   - **Self-Assessment**: Provides tools to help users assess their mental health and identify areas of concern.
         
-          - **Resources**: Offers access to mental health articles, guides, and self-help materials, even in low-connectivity regions.
+   - **Resources**: Offers access to mental health articles, guides, and self-help materials, even in low-connectivity regions.
         
-          - **Workshops**: Facilitates online mental health workshops tailored to users in remote locations.
+   - **Workshops**: Facilitates online mental health workshops tailored to users in remote locations.
         
-          - **Exercises**: Delivers mindfulness and mental health exercises that can be done offline to improve well-being.
+   - **Exercises**: Delivers mindfulness and mental health exercises that can be done offline to improve well-being.
         
-          - **Counselling**: Connects users with virtual counsellors for guidance and mental health support.
+   - **Counselling**: Connects users with virtual counsellors for guidance and mental health support.
         
-          - Emergency: Provides immediate access to emergency mental health services or contacts in case of a crisis.
+   - Emergency: Provides immediate access to emergency mental health services or contacts in case of a crisis.
 
 ## Presentation materials
 
