@@ -6,7 +6,7 @@
   - [How our technology solution can help](#how-our-technology-solution-can-help)
   - [Our idea](#our-idea)
 - [Technology implementation](#technology-implementation)
-  - [IBM watsonx product(s) used](#IBM-watsonx-product(s)-used)
+  - [IBM watsonx product(s) used](#ibm-watsonx-products-used)
   - [Other IBM technology used](#other-ibm-technology-used)
   - [Solution architecture](#solution-architecture)
 - [Presentation materials](#presentation-materials)
