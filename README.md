@@ -23,7 +23,7 @@ In many remote and rural areas, access to mental health resources is significant
 
 ### How our technology solution can help
 
-Our solution provides offline, low bandwidth Optimization, multilingual mental health care service for remote communities.
+Our solution provides offline, low bandwidth Optimization, multilingual mental health care support for rural/remote communities.
 
 ### Our idea
 
