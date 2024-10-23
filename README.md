@@ -6,7 +6,7 @@
   - [How our technology solution can help](#how-our-technology-solution-can-help)
   - [Our idea](#our-idea)
 - [Technology implementation](#technology-implementation)
-  - [IBM watsonx product(s) used](#ibm-ai-services-used)
+  - [IBM watsonx product(s) used](#IBM-watsonx-product(s)-used)
   - [Other IBM technology used](#other-ibm-technology-used)
   - [Solution architecture](#solution-architecture)
 - [Presentation materials](#presentation-materials)
@@ -160,8 +160,8 @@ See below for our proposed schedule on next steps after Call for Code 2024 submi
       **cd .\MentalHealth-UI**
       
   10. Install front-end dependencies:
-      
-     **npm install**
+
+      **npm install**
      
   11. Start the front-end:
       
