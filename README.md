@@ -28,13 +28,13 @@ Our solution provides offline, low bandwidth Optimization, multilingual mental h
 ### Our idea
 
 Access to mental health care is a significant global issue, particularly in remote and rural communities.In these regions, several challenges hinder effective mental health care delivery such as-
-1. Geographic isolation often means that mental health professionals are inaccessible, and health facilities are few and far between. This lack of proximity makes it difficult for individuals to receive timely support. 
+1. **Geographic isolation** often means that mental health professionals are inaccessible, and health facilities are few and far between. This lack of proximity makes it difficult for individuals to receive timely support. 
 
-2. Poor or intermittent internet connectivity further increases the problem as most of the modern app relies on high internet bandwidth.
+2. **Poor or intermittent internet connectivity** further increases the problem as most of the modern app relies on high internet bandwidth.
    
-3. Additionally, language barriers present significant obstacles in these areas. Most mental health care resources are not available in the regional languages spoken by these populations, limiting access to culturally and linguistically appropriate care.
+3. Additionally, **language barriers** present significant obstacles in these areas. Most mental health care resources are not available in the regional languages spoken by these populations, limiting access to culturally and linguistically appropriate care.
    
-4. Many of these individuals are not familiar with traditional authentication systems like email-based logins, creating barriers to accessing mental health applications.
+4. Many of these individuals are **not familiar with traditional authentication systems** like email-based logins, creating barriers to accessing mental health applications.
 
 Our application is addressing all the challenges by providing below functionalities- 
 
@@ -123,7 +123,77 @@ In the future we plan to...
 
 See below for our proposed schedule on next steps after Call for Code 2024 submission.
 
-![Alt text](https://github.com/poojakp/Team-Titans-Go/blob/main/images/roadmap.png)
+**October - December 2024: Feature Enhancements and Stability**
+
+  **1. Multilingual Support Expansion:**
+
+  a. Extend Watson Assistant's support for regional languages and dialects.
+
+  b. Integrate advanced translation models to enable seamless conversations in multiple languages, both voice and text.
+
+  **2. AI Model Refinements:**
+
+  a. Fine-tune sentiment analysis models for different cultural and emotional contexts.
+
+  b. Expand the dataset with diverse user data to improve empathy and response accuracy.
+
+  **3. Analytics Dashboards:**
+
+  a. Build a dashboard for healthcare professionals to monitor mental health trends, mood shifts, and engagement levels.
+
+  b. Add features for personalized intervention recommendations based on user history.
+
+**January - March 2025: Advanced Features & Integrations**
+
+  **1. Offline-first Optimization:**
+
+  a. Improve offline capabilities by incorporating more AI functions on the client side (using IndexedDB for local storage).
+
+  b. Implement a sync mechanism that ensures all data is uploaded to MongoDB when the connection is restored.
+
+  **2. Gamification:**
+
+  a. Add features like progress streaks, mood tracking rewards, and challenges to encourage regular user interaction.
+
+  b. Track user progress and visualize it through graphs for better engagement.
+
+**April - June 2025: Community and Professional Support**
+
+**1. Community Feature:**
+
+  a. Develop a secure, anonymous forum for users to share experiences and get support from peers.
+
+  b. Use AI to moderate these discussions, ensuring a positive and helpful environment.
+
+**2. Professional Integration:**
+
+  a. Enable live video or chat consultations with certified therapists or counselors.
+
+  b. Integrate AI-driven triage to prioritize high-risk cases and refer them to professionals immediately.
+
+**3. Crisis Intervention System:**
+
+  a. Build a system that can detect and respond to users in crisis, sending alerts to emergency contacts or hotlines.
+
+  b. Create an emergency button for immediate help, connecting users with mental health resources in their location.
+
+**July - September 2025: Advanced Personalization & Scaling**
+
+  **1. AI-Driven Personalization:**
+
+  a. Develop tailored wellness plans based on users’ emotional patterns, daily check-ins, and activity levels.
+
+  b. Provide recommendations like mindfulness activities or personalized goals.
+
+  **2. Global Scaling:**
+
+  a. Partner with international mental health organizations for global reach.
+
+  b. Expand support to underserved regions with partnerships, particularly targeting low-income or rural areas.
+
+  **3. Specialized Modules for Different Groups:**
+
+  a. Build custom modules for adolescents, elderly users, or specific cultural groups to offer targeted mental health support.
 
 ## Additional details
 
