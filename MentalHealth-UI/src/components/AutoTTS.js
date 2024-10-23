@@ -4,7 +4,7 @@ const AutoTTS = () => {
   useEffect(() => {
     const fetchTTS = async () => {
       const textToRead = document.body.innerText; // Get all text on the current page
-      const response = await fetch('/api/tts', {
+      const response = await fetch('/api/server/tts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

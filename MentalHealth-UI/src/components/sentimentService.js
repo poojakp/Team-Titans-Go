@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const apiKey = process.env.REACT_APP_NLU_APIKEY; // Use API Key from environment variables
-const url = process.env.REACT_APP_NLU_URL;
+const apiKey = process.env.NLU_APIKEY; // Use API Key from environment variables
+const url = process.env.NLU_URL;
 export const analyzeSentiment = async (text) => {
   const headers = {
     'Content-Type': 'application/json',
