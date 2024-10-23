@@ -123,7 +123,7 @@ In the future we plan to...
 
 See below for our proposed schedule on next steps after Call for Code 2024 submission.
 
-[View the PDF](docs/roadmap-youmatter.pdf)
+**[View the PDF](docs/roadmap-youmatter.pdf)**
 
 
 ## Additional details
@@ -145,7 +145,7 @@ See below for our proposed schedule on next steps after Call for Code 2024 submi
      
      **cd .\MentalHealth-Backend**
      
-  5. Set up the .env file with keys shared here - https://drive.google.com/file/d/1QyMfRr5bQ8ltUYulQGiDybsyuhiAGGou/view?usp=sharing
+  5. Set up the .env file with keys shared here - **https://drive.google.com/file/d/1QyMfRr5bQ8ltUYulQGiDybsyuhiAGGou/view?usp=sharing**
      and add that .env file in .\MentalHealth-Backend folder
      
   7. Run the following command to install dependencies:
