@@ -13,7 +13,6 @@ const sgMail = require('@sendgrid/mail');
 const accountSId=process.env.TWILIO_ACCOUNT_SID;
 const authToken=process.env.TWILIO_AUTH_TOKEN
 const TWILIO_PHONE_NUMBER= process.env.TWILIO_PHONE_NUMBER
-const JWT_SECRET= process.env.JWT_SECRET
 const TWILIO_SENDGRID_APIKey=process.env.TWILIO_SENDGRID_APIKey
 const twilioClient = twilio(accountSId,authToken);
 const nodemailer = require("nodemailer");
