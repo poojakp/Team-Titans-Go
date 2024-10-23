@@ -39,13 +39,13 @@ Access to mental health care is a significant global issue, particularly in remo
 Our application is addressing all the challenges by providing below functionalities- 
 
 
-**Offline Capabilities Using Dexie.js (IndexedDB)**: The app will utilize **Dexie.js**, a wrapper around **IndexedDB**, to store user data and resources locally on the device. This enables the app to work offline, allowing users to access critical mental health resources/services of app without needing an active internet connection. For example, a user in a rural community could complete self-assessments and log their mental health progress even when offline. When the app detects an internet connection, it syncs the data with the backend for further analysis and follow-up care.
+- **Offline Capabilities with Dexie.js (IndexedDB):** The app stores data locally using Dexie.js, enabling offline access to mental health resources. When online, it syncs with the backend for analysis and follow-up care.
 
-**Low Bandwidth Optimization with Caching:** The app will be optimized for low bandwidth environments. **Dexie.js** will be used to cache resources locally, so once downloaded content can be reused without redownloading. Optimizations ensure a smooth and responsive user experience, even in areas with limited connectivity.
+- **Low Bandwidth Optimization with Caching:** Dexie.js caches resources locally, allowing the app to function smoothly in low bandwidth environments by reusing downloaded content.
 
-**Multilingual Support for Accessibility:** Many remote communities have populations that speak regional languages not typically supported by mainstream apps. We will leverage **i18n (internationalization) libraries** to provide a fully multilingual interface, translating the entire user experience, including mental health content and app instructions, into regional languages. This removes linguistic barriers, making mental health support more accessible to non-native speakers of dominant languages like English or French.
+- **Multilingual Support:** The app provides a multilingual interface using i18n libraries, translating content into regional languages for greater accessibility in remote communities.
 
-**OTP-based Signup/Sign-in for Simple Authentication:** Recognizing that many users in remote areas may not have email accounts or be familiar with traditional authentication systems, the app will utilize OTP-based authentication. Through SMS services like **Twilio**, users can sign up and sign in using a **one-time password** sent directly to their mobile phones. This system is ideal for regions with basic mobile infrastructure and ensures secure access to the app without the need for complex passwords or email verification.
+- **OTP-based Authentication:** The app uses OTP-based sign-up and sign-in via SMS, ideal for users in remote areas with basic mobile infrastructure, ensuring secure access without complex passwords.
 
 
 ## Technology implementation
