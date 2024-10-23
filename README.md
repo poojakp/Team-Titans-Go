@@ -76,7 +76,7 @@ Our application is addressing all the challenges by providing below functionalit
 
 Diagram and step-by-step description of the flow of our solution:
 
-<img width="607" alt="image" src="https://github.com/user-attachments/assets/13b8b102-89d4-4881-bb27-7898e6e780b8">
+https://github.com/poojakp/Team-Titans-Go/blob/main/images/YouMatter_AD.png
 
 1. The user lands on the app's overview, where they can find information about AI chat support, contact a counselor, access self-help resources, and emergency crisis support. There is also an option in the bottom-right corner to connect with the chatbot.
 
@@ -100,7 +100,7 @@ Diagram and step-by-step description of the flow of our solution:
         
    - **Counselling**: Connects users with virtual counsellors for guidance and mental health support.
         
-   - Emergency: Provides immediate access to emergency mental health services or contacts in case of a crisis.
+   - **Emergency**: Provides immediate access to emergency mental health services or contacts in case of a crisis.
 
 ## Presentation materials
 
@@ -123,8 +123,7 @@ In the future we plan to...
 
 See below for our proposed schedule on next steps after Call for Code 2024 submission.
 
-![image](https://github.com/user-attachments/assets/33b257a7-204a-4875-90df-b3a368b7c050)
-
+[https://github.com/poojakp/Team-Titans-Go/blob/main/images/roadmap.png](https://github.com/poojakp/Team-Titans-Go/blob/main/images/roadmap.png)
 
 ## Additional details
 
