@@ -144,25 +144,26 @@ See below for our proposed schedule on next steps after Call for Code 2024 submi
      
      **cd .\MentalHealth-Backend**
      
-  5. Set up the .env file to have all your API integration keys.
+  5. Set up the .env file with keys shared here - https://drive.google.com/file/d/1QyMfRr5bQ8ltUYulQGiDybsyuhiAGGou/view?usp=sharing
+     and add that .env file in .\MentalHealth-Backend folder
      
-  6. Run the following command to install dependencies:
+  7. Run the following command to install dependencies:
       
      **npm install**
      
-  7. Start the backend server:
+  8. Start the backend server:
       
      **npm start**
      
-  8. Open a new terminal in VS Code for the front-end. Then, navigate to the front-end project directory:
+  9. Open a new terminal in VS Code for the front-end. Then, navigate to the front-end project directory:
       
       **cd .\MentalHealth-UI**
       
-  9. Install front-end dependencies:
+  10. Install front-end dependencies:
       
      **npm install**
      
-  10. Start the front-end:
+  11. Start the front-end:
       
       **npm start**
       
