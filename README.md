@@ -55,16 +55,16 @@ Our application is addressing all the challenges by providing below functionalit
 
 **Featured watsonx products**
 
-- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) - is utilized to create an intelligent, conversational interface that enables users to interact with the app with their mental health queries. It helps users navigate the app, find mental health resources, and get answers to common mental health-related questions. This virtual assistant can also guide users through mental health assessments, offer instant support, and provide reminders for ongoing activities, making mental health care more accessible and user-friendly for individuals in remote areas.
+- [watsonx Assistant](https://cloud.ibm.com/catalog/services/watsonx-assistant) -This is utilized to create an intelligent, conversational interface that enables users to interact with the app with their mental health queries. It helps users to get answers related to common mental health.
 
 ### Other IBM technology used
 
 **Additional IBM AI services**
-- [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - is intergated in the app to analyse user inputs, such as text responses to mental health assessments. By extracting key information like sentiment, emotions, and intent from users' responses, NLU allows the app to better understand the user's current mental state and provide personalized recommendations. For instance, if the system detects signs of stress or anxiety in a user's assessment, it can suggest calming exercises or connect them with relevant resources (NGO or other local communities).
+- [Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - This is integrated in the app to analyse user inputs, such as responses to mental health assessments. By extracting key information like sentiment, emotions, and intent from users' responses, NLU allows the app to better understand the user's current mental state and provide personalized recommendations. For instance, if the system detects signs of stress or anxiety in a user's assessment, it can suggest calming exercises or connect them with relevant resources (NGO or other local communities).
 
-- [Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - enables users in remote areas to interact with the app using voice commands, which is especially helpful for those with limited literacy or difficulty in typing. The app transcribes users' spoken words into text, allowing for seamless communication. This feature improves accessibility and ease of use, particularly for older adults or users unfamiliar with typing in their regional language.
+- [Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - This will transcribes users' spoken words into text, allowing for seamless communication. This feature improves accessibility (by using voice commands) ,enables ease of use, particularly for older adults or users unfamiliar with typing in their regional language.
 
-- [Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - is used to convert written content, such as mental health resources, educational articles, and conversational responses from the virtual assistant, into spoken language. This feature is particularly useful for users who prefer auditory content or have reading difficulties. It makes the app more accessible by providing a voice interface for users who may want to listen to information or instructions rather than read them, enhancing user engagement in remote, low-literacy communities.
+- [Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - is used to convert written content, such as mental health resources, educational articles, and conversational responses from the virtual assistant, into spoken language.
 
 ### Other key technology used in our project
 - Offline Capabilities and Low Bandwidth Optimization with Caching using **Dexie.js (IndexedDB)**
