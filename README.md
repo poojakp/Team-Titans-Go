@@ -36,7 +36,7 @@ Access to mental health care is a significant global issue, particularly in remo
    
 4. Many of these individuals are **not familiar with traditional authentication systems** like email-based logins, creating barriers to accessing mental health applications.
 
-Our application is addressing all the challenges by providing below functionalities- 
+**Our application is addressing all the challenges by providing below functionalities-** 
 
 
 - **Offline Capabilities with Dexie.js (IndexedDB):** The app stores data locally using Dexie.js, enabling offline access to mental health resources. When online, it syncs with the backend for analysis and follow-up care.
