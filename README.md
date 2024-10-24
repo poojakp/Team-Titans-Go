@@ -123,7 +123,7 @@ In the future we plan to...
 
 See below for our proposed schedule on next steps after Call for Code 2024 submission.
 
-![Alt text]([images/roadmap.png](https://github.com/poojakp/Team-Titans-Go/blob/main/images/roadmap.png)
+![Alt text](https://github.com/poojakp/Team-Titans-Go/blob/main/images/roadmap.png)
 
 for more details refer this pdf - **[View the PDF](docs/roadmap-youmatter.pdf)**
 
