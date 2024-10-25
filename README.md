@@ -105,7 +105,8 @@ Diagram and step-by-step description of the flow of our solution:
 ## Presentation materials
 
 ### Solution demo video
-https://youtu.be/txUGGbH35l0
+[![Watch the video](https://img.youtube.com/vi/txUGGbH35l0/0.jpg)](https://www.youtube.com/watch?v=txUGGbH35l0)
+
 
 ### Project development roadmap
 
